@@ -1,0 +1,12 @@
+---
+layout: null
+---
+# {{ site.title }}
+
+> {{ site.description | strip_newlines }}
+
+Author: Panca Walendra Putra (Indonesia), co-written with Claude Opus 5.5 (Anthropic).
+
+## Articles
+{% for post in site.posts %}
+- [{{ post.title }}]({{ site.url }}{{ post.url }}): {{ post.description }}{% endfor %}

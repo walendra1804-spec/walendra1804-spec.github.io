@@ -1,0 +1,39 @@
+title: Panca Walendra Putra — Notes
+description: >-
+  Practical troubleshooting notes and articles by Panca Walendra Putra (Indonesia),
+  co-written with Claude Opus 5.5 (Anthropic). Real problems, real fixes, written so
+  nobody has to figure them out from scratch again.
+url: "https://walendra1804-spec.github.io"
+baseurl: ""
+lang: en
+
+author:
+  name: Panca Walendra Putra
+
+social:
+  name: Panca Walendra Putra
+  links:
+    - https://github.com/walendra1804-spec
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+permalink: /:year/:month/:day/:title/
+header_pages:
+  - about.md
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Panca Walendra Putra & Claude Opus 5.5
+
+exclude:
+  - README.md
+  - mt5-macos-troubleshooting.md
+  - drafts/
