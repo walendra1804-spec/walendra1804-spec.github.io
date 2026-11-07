@@ -1,7 +1,7 @@
 ---
 title: "Terabox Stream: A Native Mac App for Streaming, Saving and Downloading Terabox Share Links"
 description: "An open-source SwiftUI app that opens a Terabox share link as a file tree, streams video and audio inside the app, saves links as small .tblink files to stream later, and downloads with resume. This is the full logbook: every wall we hit (400141 need verify, expiring links, fake MP3s, 403 hotlinking, videos that stopped at 30 seconds) and how each one was solved."
-date: 2026-11-07 21:30:00 +0700
+date: 2026-11-07 20:00:00 +0700
 tags: [macos, swift, swiftui, avplayer, hls, terabox, streaming, reverse-engineering, open-source, troubleshooting]
 ---
 
